@@ -4,13 +4,13 @@
 
 Command line
 
-´´´
+```
 docker <comando> <sub-comando> <opções>
-´´´
+```
 
-´´´
+```
 docker <comando> --help (list commands)
-´´´
+```
 
 - docker version (check the version and engine)
 - docker container ls (list containers)
