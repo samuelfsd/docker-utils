@@ -1,14 +1,16 @@
 # docker-utils
 
-docker utils pallet
+### Docker CLI
 
-## Docker CLI
+Command line
 
-uma linha comando do docker contem
-
+´´´
 docker <comando> <sub-comando> <opções>
+´´´
 
+´´´
 docker <comando> --help (list commands)
+´´´
 
 - docker version (check the version and engine)
 - docker container ls (list containers)
