@@ -5,10 +5,14 @@
 Command line
 
 ```
+// indicação de uma estrutura de comando
+
 docker <comando> <sub-comando> <opções>
 ```
 
 ```
+// indicação de comando para ajuda
+
 docker <comando> --help (list commands)
 ```
 
