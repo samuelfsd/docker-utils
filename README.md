@@ -22,3 +22,4 @@ docker <comando> --help (list commands)
 - docker container rm (remove)
 - docker container rm -f (force remove, if container is running)
 - docker build ( build app )
+- docker ps 
