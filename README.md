@@ -24,3 +24,5 @@ docker <comando> --help (list commands)
 - docker build ( build app )
 - docker ps (list containers)
 - docker it (run)
+
+- docker log ?
