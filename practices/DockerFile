@@ -1,0 +1,14 @@
+FROM nginx
+
+COPY ./index.html /usr/share/nginx/html
+
+EXPOSE 3000
+
+ENV API_URL=http://localhost:3333/api/v1
+
+WORKDIR /usr/share/nginx/html
+
+RUN ls
+
+ENTRYPOINT [ "/usr/sbin/nginx" ]
+CMD [ "-g", "daemon off;" ]
